@@ -1,44 +1,66 @@
 # Django for Beginners
 
-A collection of small projects and exercises created while learning Django.
+Practice projects and exercises based on *Django for Beginners*. The repository
+shows the progression from a basic Python script to Django views, templates,
+URL routing, and multi-page websites.
 
-## Projects
+## Project overview
 
-- `ch1-setup` – a basic Python “Hello, World!” example
-- `helloworld` – a minimal Django app that returns a text response
-- `company2` – a simple template-based home page
-- `company` – home and about pages using Django views and templates
-- `personal_website` – a starter Django project
+| Directory | Description |
+| --- | --- |
+| `ch1-setup` | Basic Python “Hello, World!” script |
+| `helloworld` | First Django app with a simple HTTP response |
+| `company2` | A home page rendered from a template |
+| `company` | Home and about pages with template inheritance and context data |
+| `personal_website` | Initial personal website project setup |
+| `personalwebsite2` | Personal website with home and about routes |
 
-## Getting started
+## Requirements
 
-1. Create and activate a virtual environment:
+- Python 3.12 or later
+- Django
+- `uv` or `pip` for dependency management
 
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
+## Run the latest project
 
-2. Install the dependencies:
+The latest project uses `uv` and has its dependencies recorded in
+`personalwebsite2/pyproject.toml`:
 
-   ```bash
-   pip install -r helloworld/requirements.txt
-   ```
+```bash
+cd personalwebsite2
+uv sync
+uv run python manage.py migrate
+uv run python manage.py runserver
+```
 
-3. Choose a project and start its development server. For example:
+Then open <http://127.0.0.1:8000/>. The about page is available at
+<http://127.0.0.1:8000/about/>.
 
-   ```bash
-   cd company
-   python manage.py migrate
-   python manage.py runserver
-   ```
+## Run an earlier project
 
-4. Open <http://127.0.0.1:8000/> in your browser.
+Create a virtual environment and install the pinned dependencies:
 
-## Running tests
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r helloworld/requirements.txt
+```
 
-From a Django project directory, run:
+Choose a project containing `manage.py`, then run it. For example:
+
+```bash
+cd company
+python manage.py migrate
+python manage.py runserver
+```
+
+## Tests
+
+Run tests from the relevant project directory:
 
 ```bash
 python manage.py test
 ```
+
+These projects are intended for local learning and development, not production
+deployment.
