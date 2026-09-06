@@ -1,1 +1,16 @@
 WRN 2026-09-01T11:59:32.338 ?.74361    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/wpGkJZ/nvim.74361.0
+WRN 2026-09-02T13:08:48.541 ?.26181    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/80Dhii/nvim.26181.0
+WRN 2026-09-02T13:09:01.337 ?.26334    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/MQBndd/nvim.26334.0
+WRN 2026-09-02T13:09:10.150 ?.26441    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/6XpY35/nvim.26441.0
+WRN 2026-09-02T13:09:53.692 ?.26893    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/PuqVCj/nvim.26893.0
+WRN 2026-09-03T06:32:14.188 ?.36807    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/61Wwfb/nvim.36807.0
+WRN 2026-09-03T06:33:04.639 ?.37318    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/DN0k0Q/nvim.37318.0
+WRN 2026-09-03T06:35:51.798 ?.39512    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/E9IpCR/nvim.39512.0
+WRN 2026-09-03T06:36:31.374 ?.39911    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/26C7PH/nvim.39911.0
+WRN 2026-09-03T06:41:20.201 ?.43004    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/DkNmi6/nvim.43004.0
+WRN 2026-09-03T06:42:26.066 ?.45120    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/SB6dAB/nvim.45120.0
+WRN 2026-09-03T06:45:31.207 ?.47544    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/rAQFtY/nvim.47544.0
+WRN 2026-09-03T06:47:33.791 ?.49275    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/L8e2X5/nvim.49275.0
+WRN 2026-09-03T06:52:59.983 ?.53319    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/AfAsvo/nvim.53319.0
+WRN 2026-09-03T06:58:39.194 ?.57279    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/Zc9o7l/nvim.57279.0
+WRN 2026-09-03T07:02:50.491 ?.61178    server_start:197: Failed to start server: operation not permitted: /var/folders/6l/j37w33zx4vv2gvn6g_3p3sn40000gn/T/nvim.nirmalsimon/35wOtu/nvim.61178.0
