@@ -1,5 +1,5 @@
 from django.db import models
-from django.url import reverse
+from django.urls import reverse
 
 # Create your models here.
 
@@ -11,5 +11,5 @@ class Post (models.Model):
     def __str__(self):
         return self.title
     
-    def get_absoluteurl_self():
+    def get_absolute_url(self):
         return reverse("post_detail", kwargs={"pk": self.pk})
